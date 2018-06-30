@@ -1,23 +1,25 @@
 import React, {Component} from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
+import {addToCart} from '../actions/index'
 
 class MenuList extends Component {
 
     createMenuItems(){
         return this.props.fooditems.map((item) => {
             return (
-                <div class="menuItem" key={item.id}>
+                <div className="menuItem" key={item.id}>
                     <img src={item.thumbnail} alt={item.title}/>
                     <h2>{item.title}</h2>
                     <h4>{item.description}</h4>
                     <h4>Price: {item.price}</h4>
                     <h4>Categories: {item.Categories.join(',')} </h4>
-                    <button class="cartButton">Add to Cart</button>
+                    <button onClick={() => this.props.addToCart(item)} className="cartButton">Add to Cart</button>
                 </div>
             );
         });
     }
+    
 
     render() {
         return(
@@ -34,4 +36,8 @@ function mapStateToProps(state){
     }
 }
 
-export default connect(mapStateToProps)(MenuList);
+function matchDispatchToProps(dispatch){
+    return bindActionCreators({addToCart: addToCart}, dispatch)
+}
+
+export default connect(mapStateToProps, matchDispatchToProps)(MenuList);
