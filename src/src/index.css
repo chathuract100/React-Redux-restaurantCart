@@ -1,0 +1,37 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .menuItem{
+    border-style:solid;
+    border-width:1px;
+
+    width:250px; 
+    max-width:250px; 
+    display: inline-block;
+    margin: 3px 3px 3px 3px;
+
+    text-align: center;
+  }
+
+  /*button styling*/
+  .cartButton {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  
