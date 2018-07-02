@@ -35,6 +35,21 @@ body {
     width:80%;
   }
 
+  /*cart styling*/
+  .cartItem
+  {
+    border-style:solid;
+    border-width:1px;
+
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden; 
+  }
+
+  .cart-buttons-container{
+    float: right;
+  }
+
   /*button styling*/
   .cartButton {
     border-radius: 4px;

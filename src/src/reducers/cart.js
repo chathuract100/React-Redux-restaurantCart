@@ -5,11 +5,6 @@ const initialState = {
 export default function (state = initialState, action){
     switch(action.type){
         case "ADD_TO_CART":
-        console.log({
-            ...state, addedItems: [
-                ...state.addedItems, action.payload
-            ]
-        } );
             return{
                 ...state, addedItems: [
                     ...state.addedItems, action.payload

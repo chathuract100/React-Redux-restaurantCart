@@ -12,7 +12,7 @@ const app = () => (
     </div>
 
     <div className="main-right">
-        <h2>Cart</h2>
+        <h2>Order Summary:</h2>
         <Cart/>
     </div>
 </div>

@@ -9,8 +9,12 @@ class Cart extends Component {
 
           const nodes = hasCartitems ? (
             this.props.cartitems.addedItems.map(item => 
-                <div key={item.id}>
-                    {item.title}
+                <div className="cartItem" key={item.id}>
+                    <b>{item.title} </b>
+                    <div className="cart-buttons-container">
+                        <button>-</button>
+                        <button>+</button>
+                    </div>
                 </div>
                 )
             ): (
@@ -37,9 +41,7 @@ class Cart extends Component {
 }
 
 function mapStateToProps(state){
-    debugger;
     return {
-        //fooditems: state.fooditems,
         cartitems: state.cartitems
     }
 }
