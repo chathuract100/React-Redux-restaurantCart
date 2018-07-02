@@ -5,7 +5,7 @@ export default function(){
             "description": "Ham Burger description", 
             "price": 500.00, 
             "Categories": ["Fast food", "Non-Veg"], 
-            "thumbnail": "https://4.imimg.com/data4/NE/PX/MY-10347843/crispy-chicken-burger-250x250.jpg"
+            "thumbnail": "https://magnoliadays.com/wp-content/uploads/2016/07/Pimento-Cheese-Burger-1-250px.jpg"
         },
         {
             "id": 2, 
@@ -13,7 +13,7 @@ export default function(){
             "description": "French Fries description", 
             "price": 250.00, 
             "Categories": ["Fast food", "Veg"], 
-            "thumbnail": "https://5.imimg.com/data5/SL/JQ/MY-4365477/masala-italian-french-fries-28ready-to-eat-29-250x250.jpg"
+            "thumbnail": "https://photo.foodgawker.com/wp-content/uploads/2012/06/942107.jpeg"
         },
         {
             "id": 3, 
@@ -21,7 +21,7 @@ export default function(){
             "description": "Vegitable Pizza description", 
             "price": 900.00, 
             "Categories": ["Veg"], 
-            "thumbnail": "http://www.hammockpizza.co/image/cache/pizza/vaggie-pizza-250x250.png"
+            "thumbnail": "http://www.amanopizza.com/wp-content/gallery/pizzeria/regina-margherita-a-mano.jpg"
         },
         {
             "id": 4, 
@@ -29,7 +29,7 @@ export default function(){
             "description": "Chicken Pizza description", 
             "price": 1200.00, 
             "Categories": ["Non-Veg"], 
-            "thumbnail": "http://www.hammockpizza.co/image/cache/pizza/meatlover-pizza-250x250.png"
+            "thumbnail": "https://s3-media2.fl.yelpcdn.com/bphoto/Z8AhM4UkDoF8sLp9r0dnZg/ls.jpg"
         },
         {
             "id": 5, 
@@ -37,7 +37,31 @@ export default function(){
             "description": "Chicken Buriyani description", 
             "price": 800.00, 
             "Categories": ["Non-Veg", "indian"], 
-            "thumbnail": "https://4.imimg.com/data4/VB/OT/MY-21532930/chicken-biryani-250x250.png"
+            "thumbnail": "https://s3-media1.fl.yelpcdn.com/bphoto/iRs9X8OebCa9S1BS1MWueg/ls.jpg"
+        },
+        {
+            "id": 6, 
+            "title": "Chicken Pasta", 
+            "description": "Chicken Pasta description", 
+            "price": 950.00, 
+            "Categories": ["Non-Veg", "italian"], 
+            "thumbnail": "http://www.countrycleaver.com/wp-content/uploads/2017/07/Pesto-Chicken-Pasta-Skillet-with-Asparagus-and-Tomatoes-250x250.jpg"
+        },
+        {
+            "id": 7, 
+            "title": "Beef Lasagna", 
+            "description": "Beef Lasagna description", 
+            "price": 1150.00, 
+            "Categories": ["Non-Veg", "italian"], 
+            "thumbnail": "http://makingthymeforhealth.com/wp-content/uploads/2017/12/Butternut-Squash-Kale-Lasagna-_-250x250.jpg"
+        },
+        {
+            "id": 8, 
+            "title": "Mojito", 
+            "description": "Mojito description", 
+            "price": 550.00, 
+            "Categories": ["Beverage", "Mocktail"], 
+            "thumbnail": "http://www.nephroplus.com/wp-content/uploads/2017/04/Virgin-Mojito-250x250.gif"
         }
     ]
 }

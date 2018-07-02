@@ -8,6 +8,8 @@ import App from './containers/app'
 
 const store = createStore(allReducers)
 
+console.log(store.getState());
+
 render(
   <Provider store={store}>
     <App />

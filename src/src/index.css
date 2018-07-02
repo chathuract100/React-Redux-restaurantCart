@@ -19,6 +19,22 @@ body {
     text-align: center;
   }
 
+  .main-right{
+    float:right;
+    width:20%;
+  }
+
+  .cart-right
+  {
+    padding: 10px;
+    background-color: #D8D8D8
+  }
+
+  .main-left{
+    float:left;
+    width:80%;
+  }
+
   /*button styling*/
   .cartButton {
     border-radius: 4px;

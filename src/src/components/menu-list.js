@@ -10,10 +10,10 @@ class MenuList extends Component {
             return (
                 <div className="menuItem" key={item.id}>
                     <img src={item.thumbnail} alt={item.title}/>
-                    <h2>{item.title}</h2>
-                    <h4>{item.description}</h4>
+                    <h3>{item.title}</h3>
+                    <em>{item.description}</em>
                     <h4>Price: {item.price}</h4>
-                    <h4>Categories: {item.Categories.join(',')} </h4>
+                    <h4>Categories: <i>{item.Categories.join(',')} </i></h4>
                     <button onClick={() => this.props.addToCart(item)} className="cartButton">Add to Cart</button>
                 </div>
             );
